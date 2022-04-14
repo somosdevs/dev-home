@@ -1,0 +1,11 @@
+.App {
+  height: 100vh;
+  padding: 2rem 0 0;
+  color: #fff;
+  background-color: #282c34;
+}
+
+.categories--container {
+  display: flex;
+  justify-content: space-around;
+}

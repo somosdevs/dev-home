@@ -1,0 +1,35 @@
+.category--container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  max-width: 12rem;
+  width: 80%;
+}
+
+.category {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: flex-start;
+  height: 3rem;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 1rem;
+
+  background-color: #065c95;
+  border-radius: 6px;
+
+  cursor: pointer;
+}
+
+.category--icon {
+  font-size: 2.5em;
+}
+
+.category--links {
+  display: none;
+}
+
+.category--links__open {
+  display: block;  
+}
